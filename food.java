@@ -18,4 +18,7 @@ public class food {
     public void setPrice(double price) {
         this.price = price;
     }
+    public String toString(){
+        return "(price: "+price+"\n Name: "+name+")";
+    }
 }
