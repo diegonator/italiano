@@ -31,5 +31,8 @@ public class delivery extends orders{
     public void setPhone(String phone) {
         this.phone = phone;
     }
+    public String toString() {
+        return "delivery [customer=" + customer + ", address=" + address + ", phone=" + phone + "]";
+    }
 
 }

@@ -17,4 +17,7 @@ public class takeout extends orders {
     public void setCustomer(String customer) {
         this.customer = customer;
     }
+    public String toString() {
+        return "takeout [customer=" + customer + "]";
+    }
 }

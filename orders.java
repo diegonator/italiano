@@ -44,4 +44,7 @@ public class orders {
     public void setStatus(String status) {
         this.status = status;
     }
+    public String toString() {
+        return "orders [dishes=" + dishes + ", ordernumber=" + ordernumber + ", status=" + status + "]";
+    }
 }

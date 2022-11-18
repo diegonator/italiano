@@ -9,12 +9,14 @@ public class tableorder extends orders{
         super(dishes);
 
     }
-
-    public int getTablenumber() {
+     public int getTablenumber() {
         return tablenumber;
     }
 
     public void setTablenumber(int tablenumber) {
         this.tablenumber = tablenumber;
+    }
+    public String toString() {
+        return "tableorder [tablenumber=" + tablenumber + "]";
     }
 }
